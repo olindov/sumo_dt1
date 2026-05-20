@@ -1,0 +1,12 @@
+﻿ID,Naziv,Tip,Latitude,Longitude,Mjerenja,Period,Metoda,Prioritet,SUMO_edge_id,SUMO_lane_id,SUMO_pos_m
+P1,Ulaz Lukavica veza Dobrinja (veza ka KS),Ulaz/Izlaz,43.8185,18.3562,protok; smjerovi,Radni dan 07-09 & 15-17,Video ili ručno,1,,,
+P2,Lukavica veza Istočna Ilidža (lokalni ulaz),Ulaz/Izlaz,43.8201,18.3639,protok,Radni dan 07-09 & 15-17,Ručno,2,,,
+P3,Vojkovići veza Kasindo (zapadni ulaz),Ulaz/Izlaz,43.8227,18.3471,protok,Radni dan 07-09 & 15-17,Ručno,2,,,
+P4,Lukavica veza Pale (regionalni pravac),Ulaz/Izlaz,43.8332,18.4304,protok; sezonalnost,Radni dan 07-09 & 15-17 + vikend,Video ili ručno,1,,,
+P5,Pale veza Sarajevo (M18) tranzit,Tranzit,43.8514,18.4412,protok 24h,24h (radni dan),Ručno (kampanja) / automatski ako postoji,1,,,
+P6,Stup veza Lukavica (ulaz u zonu),Tranzit,43.8219,18.3387,protok; brzine (opcionalno),Radni dan 07-09 & 15-17,Video + floating-car,1,,,
+P7,Dobrinja veza Lukavica (KS veza),Tranzit,43.8158,18.3615,protok; smjerovi,Radni dan 07-09 & 15-17,Video,1,,,
+R1,Ulaz Lukavica (glavna raskrsnica),Raskrsnica,43.8189,18.3591,skretni tokovi; kolone; zadržavanja,Radni dan 07-09 & 15-17,Video (15-min intervali),1,,,
+R2,Lukavica centar (kritična raskrsnica),Raskrsnica,43.8207,18.3648,kolone; zadržavanja; skretni tokovi,Radni dan 07-09 & 15-17,Video + terensko opažanje,1,,,
+R3,Veza Dobrinja (raskrsnica/uključenje),Raskrsnica,43.8169,18.3583,skretni tokovi; zadržavanja,Radni dan 07-09 & 15-17,Video,1,,,
+R4,Pale centar (sezonski uticaji),Raskrsnica,43.8204,18.5699,skretni tokovi; kolone; sezonalnost,Zima/ljeto: radni dan + vikend,Video ili ručno,2,,,
