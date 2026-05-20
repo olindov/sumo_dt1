@@ -1,0 +1,11 @@
+<routes>
+    <vType id="passenger" accel="2.6" decel="4.5" length="5.0" maxSpeed="13.9" guiShape="passenger"/>
+    <vType id="bus" accel="1.2" decel="4.0" length="12.0" maxSpeed="11.0" guiShape="bus"/>
+    <vType id="truck" accel="1.0" decel="4.0" length="8.0" maxSpeed="11.0" guiShape="truck"/>
+
+    <!-- Example starter flows. Replace from/to edges with real SUMO edge IDs. -->
+    <flow id="f1" begin="0" end="900" number="120" from="in_north" to="out_south" type="passenger" departLane="best" departSpeed="max"/>
+    <flow id="f2" begin="0" end="900" number="35" from="in_north" to="out_east" type="passenger" departLane="best" departSpeed="max"/>
+    <flow id="f3" begin="0" end="900" number="18" from="in_east" to="out_west" type="bus" departLane="best" departSpeed="max"/>
+    <flow id="f4" begin="900" end="1800" number="140" from="in_west" to="out_east" type="passenger" departLane="best" departSpeed="max"/>
+</routes>

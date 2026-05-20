@@ -1,0 +1,7 @@
+<additional>
+    <!-- Replace lane IDs and positions with your real network values -->
+    <e1Detector id="det_in_north" lane="in_north_0" pos="5" freq="900" file="../output/detector_north.xml"/>
+    <e1Detector id="det_in_south" lane="in_south_0" pos="5" freq="900" file="../output/detector_south.xml"/>
+    <e1Detector id="det_in_east" lane="in_east_0" pos="5" freq="900" file="../output/detector_east.xml"/>
+    <e1Detector id="det_in_west" lane="in_west_0" pos="5" freq="900" file="../output/detector_west.xml"/>
+</additional>

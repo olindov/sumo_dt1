@@ -1,0 +1,9 @@
+Place your calibrated SUMO network here.
+Expected file name:
+
+network.net.xml
+
+Recommended creation paths:
+1. OSM -> netconvert / osmWebWizard
+2. QGIS / GIS cleanup -> OSM -> SUMO
+3. netedit manual calibration

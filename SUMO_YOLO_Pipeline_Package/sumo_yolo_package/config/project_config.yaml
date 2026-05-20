@@ -1,0 +1,28 @@
+project_name: sarajevo_dt_pilot
+city: Sarajevo
+pilot_site: Example_Intersection
+video_fps_assumption: 25
+count_interval_minutes: 15
+vehicle_classes:
+  car: [2, 3, 5, 7]
+  bus: [5]
+  truck: [7]
+  motorcycle: [3]
+  bicycle: [1]
+
+yolo:
+  confidence: 0.35
+  iou: 0.45
+  tracker: bytetrack.yaml
+
+sumo:
+  begin: 0
+  end: 3600
+  step_length: 1.0
+  seed: 42
+  network_file: ../4_sumo/network/network.net.xml
+  route_file: ../4_sumo/demand/flows.xml
+  additional_file: ../4_sumo/additional/detectors.add.xml
+  output_tripinfo: ../4_sumo/output/tripinfo.xml
+  output_emissions: ../4_sumo/output/emissions.xml
+  output_summary: ../4_sumo/output/summary.xml

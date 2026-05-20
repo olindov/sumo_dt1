@@ -1,0 +1,6 @@
+begin,end,from_edge,to_edge,vehicle_type,count
+0,900,in_north,out_south,passenger,120
+0,900,in_north,out_east,passenger,35
+0,900,in_east,out_west,bus,18
+900,1800,in_west,out_east,passenger,140
+900,1800,in_south,out_north,truck,12

@@ -1,0 +1,6 @@
+movement,observed,simulated,diff,abs_pct_error
+north_to_south,120,115,-5,4.17
+north_to_east,35,31,-4,11.43
+east_to_west_bus,18,20,2,11.11
+west_to_east,140,149,9,6.43
+south_to_north_truck,12,10,-2,16.67

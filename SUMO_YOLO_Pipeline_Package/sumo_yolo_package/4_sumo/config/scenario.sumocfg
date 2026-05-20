@@ -1,0 +1,30 @@
+<configuration>
+    <input>
+        <net-file value="../network/network.net.xml"/>
+        <route-files value="../demand/flows.xml"/>
+        <additional-files value="../additional/detectors.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+        <step-length value="1.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <time-to-teleport value="300"/>
+    </processing>
+
+    <output>
+        <tripinfo-output value="../output/tripinfo.xml"/>
+        <summary-output value="../output/summary.xml"/>
+        <emission-output value="../output/emissions.xml"/>
+        <queue-output value="../output/queue.xml"/>
+    </output>
+
+    <report>
+        <verbose value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+</configuration>
