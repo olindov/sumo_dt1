@@ -1,0 +1,23 @@
+DigitalTwin_Sarajevo_SUMO_Project/Python skripta/venv/
+venv/
+__pycache__/
+*.pyc
+**/venv/
+.venv/
+*.dav
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.zip
+*.rar
+*.7z
+*.mp4
+*.png
+*.jpg
+
+
+Video snimci*/
+raw/
+videos/
+data/raw/
